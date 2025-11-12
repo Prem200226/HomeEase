@@ -15,68 +15,6 @@ HomeEase is a full-stack web application that allows users to book and manage ho
 | **Routing Security**  | Custom PrivateRoute with Role-based Access                     |
 
 
-📁 Folder Structure
-HomeEase/
-│
-├── Frontend/                         # React Frontend
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── NavigationBar.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── AddServices.jsx
-│   │   │   ├── EditService.jsx
-│   │   │   ├── ServiceList.jsx
-│   │   │   ├── ServicesDashBord.jsx
-│   │   │   ├── ElectricalService.jsx
-│   │   │   ├── PlumbingService.jsx
-│   │   │   ├── CarpentryService.jsx
-│   │   │   ├── GardningServices.jsx
-│   │   │   ├── CleaningService.jsx
-│   │   │   ├── PaintingService.jsx
-│   │   │   ├── FeedbackForm.jsx
-│   │   │   ├── FeedbackList.jsx
-│   │   │   ├── Aboutus.jsx
-│   │   │   ├── Payment.jsx
-│   │   │   ├── PrivateRoute.jsx
-│   │   │   └── AccessDenied.jsx
-│   │   ├── constants/
-│   │   │   ├── RoleConstant.js
-│   │   │   └── APIConstant.js
-│   │   ├── services/
-│   │   │   ├── TokenService.js
-│   │   │   ├── RoleService.js
-│   │   │   └── Services.js
-│   │   ├── assets/
-│   │   │   ├── css/
-│   │   │   │   └── productlist.css
-│   │   │   └── images/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── package.json
-│
-├── Backend/                         # Node.js Backend
-│   ├── src/
-│   │   ├── configs/
-│   │   │   └── DbConfig.js
-│   │   ├── controllers/
-│   │   │   ├── UserController.js
-│   │   │   ├── adminServiceController.js
-│   │   │   └── servicesController.js
-│   │   ├── routes/
-│   │   │   ├── UserRoutes.js
-│   │   │   ├── AdminRoutes.js
-│   │   │   └── ServiceRoutes.js
-│   │   └── constants/
-│   │       └── RoleConstants.js
-│   ├── index.js
-│   └── package.json
-│
-└── README.md
-
-
 ⚙️ Backend Setup
 1️⃣ Install Dependencies
 cd Server
