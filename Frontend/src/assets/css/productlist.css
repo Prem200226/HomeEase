@@ -1,0 +1,29 @@
+/* Basic styles for service/product list table */
+.table {
+  width: 100%;
+}
+
+.action-button {
+  margin-right: 0.5rem;
+}
+
+/* Small responsive tweaks */
+@media (max-width: 576px) {
+  .table thead {
+    display: none;
+  }
+  .table, .table tbody, .table tr, .table td {
+    display: block;
+    width: 100%;
+  }
+  .table tr { margin-bottom: 1rem; }
+  .table td { text-align: right; padding-left: 50%; position: relative; }
+  .table td::before { 
+    content: attr(data-label);
+    position: absolute;
+    left: 1rem;
+    width: calc(50% - 2rem);
+    text-align: left;
+    font-weight: 600;
+  }
+}

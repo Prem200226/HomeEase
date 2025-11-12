@@ -1,0 +1,19 @@
+.service-card {
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.service-card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 25px rgba(91, 141, 239, 0.3); /* matches Nebula Noir blue accent */
+  z-index: 5;
+}
+
+/* Smooth button animation */
+.service-card button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.service-card button:hover {
+  transform: scale(1.05);
+}
